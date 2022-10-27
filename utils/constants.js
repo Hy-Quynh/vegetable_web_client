@@ -17,10 +17,10 @@ import VideocamIcon from "@mui/icons-material/Videocam";
 import ConstructionIcon from '@mui/icons-material/Construction';
 
 export const GET_PROVINCE_API = "https://provinces.open-api.vn/api/?depth=1";
-export const CHAT_HOST = "http://localhost:5004";
+export const CHAT_HOST = "https://vegetableweb.herokuapp.com";
 export const USER_INFO_KEY = "user_info";
 export const USER_CART_INFO = "user_prd_card";
-export const API_SERVER_URL = "http://localhost:5004/api";
+export const API_SERVER_URL = "https://vegetableweb.herokuapp.com/api";
 export const ADMIN_ROLE = [
   {
     label: "Dashboard",
