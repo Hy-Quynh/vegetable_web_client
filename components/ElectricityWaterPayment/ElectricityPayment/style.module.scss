@@ -1,0 +1,32 @@
+.electricityPayment {
+  :global {
+    .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+      padding: 15px 10px !important;
+    }
+  }
+}
+
+.electricityModal {
+  padding-left: 20px;
+  padding-right: 20px;
+  :global {
+    .modal-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+
+      .info-value {
+        font-weight: 800;
+      }
+    }
+    .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+      padding: 15px 10px !important;
+    }
+
+    #card-element {
+      padding: 20px;
+      border: 1px solid #e2e2e1;
+    }
+  }
+}
