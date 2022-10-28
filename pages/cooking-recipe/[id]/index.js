@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { dateTimeConverter } from "../../../../server/utils/util";
+import { dateTimeConverter } from "../../../utils/common"; 
 import { BLUR_BASE64, USER_INFO_KEY } from "../../../utils/constants";
 import { Markup } from "interweave";
 import style from "./style.module.scss";

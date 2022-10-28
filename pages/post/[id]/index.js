@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { dateTimeConverter } from "../../../../server/utils/util";
+import { dateTimeConverter } from "../../../utils/common"; 
 import {
   changeBlogView,
   changeUserFavouriteBlog,

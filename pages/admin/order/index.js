@@ -26,7 +26,7 @@ import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import ViewCheckoutDetailDrawer from "../../../components/AdminOrder/ViewDataDrawer";
 import { toast } from "react-toastify";
 import CustomPopover from "../../../components/CustomPopover";
-import { dateTimeConverter } from "../../../../server/utils/util";
+import { dateTimeConverter } from "../../../utils/common";
 import ChangeCheckoutStatusPopover from "../../../components/AdminOrder/ChangeStatusPopover";
 import {
   changeCheckoutStatus,

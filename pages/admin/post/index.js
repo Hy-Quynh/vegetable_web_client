@@ -17,7 +17,7 @@ import { debounce } from "@mui/material";
 import "braft-editor/dist/index.css";
 import storage from "../../../services/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import { dateTimeConverter } from "../../../../server/utils/util";
+import { dateTimeConverter } from "../../../utils/common"; 
 import DeleteIcon from "@mui/icons-material/Delete";
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 import CustomInput from "../../../components/CustomInput";
